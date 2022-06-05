@@ -170,3 +170,25 @@ nav .max-width {
   width: 250px;
   height: fit-content;
 }
+
+.home-content .content-box i {
+  color: orange;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.home-content .content-box p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 100;
+
+}
+
+.home-content .content-box .title {
+  font-size: 20px;
+  text-align: left;
+  line-height: 40px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
