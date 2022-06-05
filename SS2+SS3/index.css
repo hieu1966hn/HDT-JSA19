@@ -126,3 +126,18 @@ nav .max-width {
 .content-menu button {
   transition: all 1s;
 }
+
+
+.max-width .orange-bar {
+  width: 100px;
+  height: 2px;
+  background-color: orange;
+  margin-top: 30px;
+}
+
+.home-content .max-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* danh cho chieu ngang */
+}
