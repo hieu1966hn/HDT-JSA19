@@ -45,6 +45,36 @@
       h1.style.backgroundColor = "darkred"
     })
 
+
+
+    // Câu 3:
+    // C1 
+    // function numberOneTriangle() {
+    //   document.write('1');
+    //   document.write('<br>');
+
+    //   document.write('11')
+    //   document.write('<br>');
+    //   document.write('111')
+    //   document.write('<br>');
+    //   document.write('1111')
+    //   document.write('<br>');
+    //   document.write('11111')
+    //   document.write('<br>');
+    // }
+
+    // C2:
+    function numberOneTriangle(n) {
+      for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= i; j++) {
+          document.write('1')
+        }
+        document.write('<br>')
+      }
+    }
+    numberOneTriangle(5);
+
+
   </script>
 </body>
 
